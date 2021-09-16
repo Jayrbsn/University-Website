@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with-device-width, initial-scale=1.0">
+   <title>University Website</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <section class="sub-header">
+      <nav>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="course.html">COURSE</a></li>
+               <li><a href="blog.html">BLOG</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Blog</h1>
+
+   </section>
+
+
+<!-------------Blog Section------------>
+
+
+   <section class="blog-content">
+      <div class="row">
+         <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Look at this thing</h2>
+            <p>Zeus was born of Titans Cronus and Rhea. Cronus was notorious for being a very jealous and greedy deity. Fearing that one of his children would take the throne away from him, Cronus devoured every child Rhea gave birth to. However, when Rhea gave birth to her last child, Zeus, she managed to outwit Cronus with the help of the Titans Uranus and Gaea. She gave her husband a stone to swallow in diapers as a substitute for her child, and sent Zeus away to the Greek island of Crete. Special demons called "Curetes" made noise by beating on their shields so that Cronus would not hear the baby's cries.</p>
+            <br>
+            <p>Zeus was secretly raised by the nymphs and fed honey and milk with the help of the broken horn of the mother goat Amaltheia. Soon the day came when Zeus was mature enough to usurp world domination and he began a battle against his father and the Titans. This battle is also known as the "Titanomachy". First, Zeus managed to free his older siblings from his father's stomach by giving him a special herb and making him spit.</p>
+            <br>
+            <p>Then, with the help of his siblings, Zeus overthrew the Titans in the depths of the underworld, Tartarus. After overthrowing his father Cronus, Zeus was confronted by the giants and also the monster Typhon, both of which he successfully defeated. The time had come for the kingdom of the world to be in the hands of Zeus and his siblings!</p>
+                     
+            <div class="comment-box">
+               <h3>Leave a Comment</h3>
+               <form class="comment-form">
+                  <input type="text" placeholder="Enter Name">
+                  <input type="email" placeholder="Enter Email">
+                  <textarea rows="5" placeholder="Comment"></textarea>
+                  <button type="submit" class="hero-btn red-btn">POST</button>
+               </form>  
+            </div>   
+
+
+         </div>
+         <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+               <span>Business Analytics</span>
+               <span>21</span>
+            </div>
+            <div>
+               <span>Data Science</span>
+               <span>28</span>
+            </div>
+            <div>
+               <span>Machine Learning</span>
+               <span>15</span>
+            </div>
+         </div>
+      </div>
+
+   </section> 
+
+
+<!-------------Footer Section------------>
+
+
+   <section class="footer">
+      <h4>About Us</h4>
+      <p>I will be like Zeus. I will be rich and powerful. I will never stand with the plebs again</p>
+      <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Custodian IT Solutions</p>
+   </section>
+
+
+<!--------------JavaScript for Menu-------------->
+
+
+   <script>
+      
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+         navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+         navLinks.style.right = "-200px";
+      }
+
+   </script>
+
+</body>
+</html>
